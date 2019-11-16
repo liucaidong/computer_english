@@ -27,6 +27,7 @@ English of computer technology
 7. perspective-origin： 规定 3D 元素的底部位置
 8. backface-visibility： 定义元素在不面对屏幕时是否可见
 9. @keyframes myfirst /*定义动画名*/
+   ```
     {
       0%   {background:red; left:0px; top:0px;} /*定义起始帧样式，0%可以换成from*/
       25%  {background:yellow; left:200px; top:0px;}
@@ -34,3 +35,4 @@ English of computer technology
       75%  {background:green; left:0px; top:200px;}
       100% {background:red; left:0px; top:0px;} /*定义结束帧样式，100%可以换成to*/
     }
+    ```
